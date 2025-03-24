@@ -20,9 +20,9 @@ const AddToCartButton = ({ product }) => {
 	/**
 	 * Logs the product details on component mount or when the product changes.
 	 */
-	useEffect(() => {
-		console.log(product);
-	}, [product]);
+	// useEffect(() => {
+	// 	console.log(product);
+	// }, [product]);
 
 	/**
 	 * Handles the click event to add the product to the cart.
